@@ -1,5 +1,5 @@
-import { AppreciationData } from "@acclaimify/ui-components";
-import { createContext, ReactNode, useState } from "react";
+import { AppreciationData } from '@clapify/ui-components';
+import { createContext, ReactNode, useState } from 'react';
 
 // Define the context type
 interface FormContextType {
@@ -8,7 +8,9 @@ interface FormContextType {
 }
 
 // Initialize the context with an undefined default
-export const FormContext = createContext<FormContextType | undefined>(undefined);
+export const FormContext = createContext<FormContextType | undefined>(
+  undefined
+);
 
 // Create a provider component
 export const FormProvider = ({ children }: { children: ReactNode }) => {

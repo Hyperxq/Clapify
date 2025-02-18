@@ -1,5 +1,5 @@
 import { useMutation, UseMutationResult } from '@tanstack/react-query';
-import { AppreciationData } from '@acclaimify/ui-components';
+import { AppreciationData } from '@clapify/ui-components';
 import { useNavigate } from 'react-router-dom';
 
 interface UseCardImageActionsProps {

@@ -1,5 +1,5 @@
 import { useFormContext } from '@contexts';
-import { Card } from '@acclaimify/ui-components';
+import { Card } from '@clapify/ui-components';
 import { useCardRotation } from '@hooks';
 import { ActionMenu } from '@components';
 

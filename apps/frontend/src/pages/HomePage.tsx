@@ -1,6 +1,6 @@
 import { Header, MainContainer, AchievementContainer, FormComponent } from "@components";
 import { FormProvider } from "@providers";
-import { CardContainer } from '@acclaimify/ui-components';
+import { CardContainer } from '@clapify/ui-components';
 
 export const Home = () => {
   return (
