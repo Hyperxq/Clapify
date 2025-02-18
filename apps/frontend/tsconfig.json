@@ -1,11 +1,39 @@
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "allowJs": false,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
+    "jsxImportSource": "react",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    /* Linting */
     "strict": true,
-    "types": ["vite/client", "vitest"]
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["vite/client"],
+    "paths": {
+      "@components": ["apps/frontend/src/components/index.ts"],
+      "@consts": ["apps/frontend/src/consts/index.ts"],
+      "@contexts": ["apps/frontend/src/contexts/index.ts"],
+      "@enums": ["apps/frontend/src/enums/index.ts"],
+      "@hooks": ["apps/frontend/src/hooks/index.ts"],
+      "@interceptors": ["apps/frontend/src/interceptors/index.ts"],
+      "@pages": ["apps/frontend/src/pages/index.ts"],
+      "@providers": ["apps/frontend/src/providers/index.ts"],
+      "@services": ["apps/frontend/src/services/index.ts"],
+      "@types": ["apps/frontend/src/types/index.ts"],
+      "@utilities": ["apps/frontend/src/utilities/index.ts"],
+      "@clapify/ui-components": ["ui-components/src/index.ts"]
+    }
   },
   "files": [],
   "include": [],
